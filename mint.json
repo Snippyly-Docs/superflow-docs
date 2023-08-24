@@ -36,20 +36,48 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Getting Started",
       "pages": [
         {
-          "group": "Endpoint Examples",
+          "group": "Webflow",
           "pages": [
-            "api-reference/endpoint/get",
-            "api-reference/endpoint/create"
+            "getting-started/webflow/setup",
+            "getting-started/webflow/video"
           ]
         },
         {
-          "group": "Endpoint Examples",
+          "group": "Wordpress",
           "pages": [
-            "api-reference/endpoint/get",
-            "api-reference/endpoint/create"
+            "getting-started/wordpress/setup",
+            "getting-started/wordpress/video"
+          ]
+        },
+        {
+          "group": "Wix",
+          "pages": [
+            "getting-started/wix/setup",
+            "getting-started/wix/video"
+          ]
+        },
+        {
+          "group": "Squarespace",
+          "pages": [
+            "getting-started/squarespace/setup",
+            "getting-started/squarespace/video"
+          ]
+        },
+        {
+          "group": "shopify",
+          "pages": [
+            "getting-started/shopify/setup",
+            "getting-started/shopify/video"
+          ]
+        },
+        {
+          "group": "Framer",
+          "pages": [
+            "getting-started/framer/setup",
+            "getting-started/framer/video"
           ]
         }
 

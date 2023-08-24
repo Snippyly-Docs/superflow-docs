@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Superflow Docs",
   "logo": {
-    "dark": "https://framerusercontent.com/images/S5CvZTyGJ2EA9Y4Z25BTcPVhM.png",
-    "light": "https://framerusercontent.com/images/S5CvZTyGJ2EA9Y4Z25BTcPVhM.png"
+    "dark": "logo.png",
+    "light": "logo.png"
   },
-  "favicon": "https://framerusercontent.com/images/S5CvZTyGJ2EA9Y4Z25BTcPVhM.png",
+  "favicon": "favicon.png",
   "colors": {
     "primary": "#9563FF",
     "light": "#AE87FF",

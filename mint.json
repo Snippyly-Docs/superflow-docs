@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Superflow Docs",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "https://framerusercontent.com/images/S5CvZTyGJ2EA9Y4Z25BTcPVhM.png",
+    "light": "https://framerusercontent.com/images/S5CvZTyGJ2EA9Y4Z25BTcPVhM.png"
   },
   "favicon": "https://framerusercontent.com/images/S5CvZTyGJ2EA9Y4Z25BTcPVhM.png",
   "colors": {

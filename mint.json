@@ -29,43 +29,43 @@
         {
           "group": "Webflow",
           "pages": [
-            "getting-started/webflow/setup",
-            "getting-started/webflow/video"
+            "no-code-platforms/webflow/setup",
+            "no-code-platforms/webflow/video"
           ]
         },
         {
           "group": "Wordpress",
           "pages": [
-            "getting-started/wordpress/setup",
-            "getting-started/wordpress/video"
+            "no-code-platforms/wordpress/setup",
+            "no-code-platforms/wordpress/video"
           ]
         },
         {
           "group": "Wix",
           "pages": [
-            "getting-started/wix/setup",
-            "getting-started/wix/video"
+            "no-code-platforms/wix/setup",
+            "no-code-platforms/wix/video"
           ]
         },
         {
           "group": "Squarespace",
           "pages": [
-            "getting-started/squarespace/setup",
-            "getting-started/squarespace/video"
+            "no-code-platforms/squarespace/setup",
+            "no-code-platforms/squarespace/video"
           ]
         },
         {
           "group": "Shopify",
           "pages": [
-            "getting-started/shopify/setup",
-            "getting-started/shopify/video"
+            "no-code-platforms/shopify/setup",
+            "no-code-platforms/shopify/video"
           ]
         },
         {
           "group": "Framer",
           "pages": [
-            "getting-started/framer/setup",
-            "getting-started/framer/video"
+            "no-code-platforms/framer/setup",
+            "no-code-platforms/framer/video"
           ]
         }
 
@@ -77,36 +77,36 @@
         {
           "group": "React.js",
           "pages": [
-            "getting-started/webflow/setup",
-            "getting-started/webflow/video"
+            "no-code-platforms/webflow/setup",
+            "no-code-platforms/webflow/video"
           ]
         },
         {
           "group": "Next.js",
           "pages": [
-            "getting-started/webflow/setup",
-            "getting-started/webflow/video"
+            "no-code-platforms/webflow/setup",
+            "no-code-platforms/webflow/video"
           ]
         },
         {
           "group": "Vue.js",
           "pages": [
-            "getting-started/webflow/setup",
-            "getting-started/webflow/video"
+            "no-code-platforms/webflow/setup",
+            "no-code-platforms/webflow/video"
           ]
         },
         {
           "group": "Angular.js",
           "pages": [
-            "getting-started/webflow/setup",
-            "getting-started/webflow/video"
+            "no-code-platforms/webflow/setup",
+            "no-code-platforms/webflow/video"
           ]
         },
         {
           "group": "Svelte.js",
           "pages": [
-            "getting-started/webflow/setup",
-            "getting-started/webflow/video"
+            "no-code-platforms/webflow/setup",
+            "no-code-platforms/webflow/video"
           ]
         }
       ]

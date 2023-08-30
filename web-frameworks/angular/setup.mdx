@@ -4,6 +4,7 @@ description: "How to setup Superflow with Angular.js"
 ---
 
 [Github Repo](https://github.com/benjvelt/superflow-angular)
+[Demo](superflow-angular.vercel.app/?review=true)
 
 ## 1) Select NPM from the list of Platforms
 
@@ -13,8 +14,16 @@ Choose NPM from the list of options to install Superflow with Angular.js.
 ![](/images/select-npm-final.png)
 </Frame>
 
+## 2) Copy your unique Superflow Code
 
-## 2) Install the Superflow NPM package
+Copy the code from the section "Initialize Superflow"
+
+<Frame>
+![](/images/copy-npm-final.png)
+</Frame>
+
+
+## 3) Install the Superflow NPM package
 
 Install the Superflow NPM package with:
 
@@ -22,7 +31,7 @@ Install the Superflow NPM package with:
 npm i @usesuperflow/client
 ```
 
-## 3) Import Superflow into `main.ts`
+## 4) Import Superflow into `main.ts`
 
 Import the Superflow NPM package with:
 
@@ -30,7 +39,7 @@ Import the Superflow NPM package with:
 import { initSuperflow } from '@usesuperflow/client'
 ```
 
-## 4) Initialize Superflow in `main.ts`
+## 5) Initialize Superflow in `main.ts`
 
 Import `initSuperflow` from the NPM package and use it to initialize Superflow.
 
@@ -51,12 +60,13 @@ platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
 
 ```
-## 5) 
+
+## 6) Deploy your app with your changes
 
 Deploy your Angular app with your changes.
 
 
-## 6) Verify your Installation
+## 7) Verify your Installation
 
 Verify your Superflow installation by clicking the Verify button on the onboarding flow.
 
@@ -70,7 +80,7 @@ If successful, you should be redirected to your published Angular site and see t
 ![](/images/verified-final.png)
 </Frame>
 
-## 7) Troubleshooting
+## 8) Troubleshooting
 
 Having trouble getting your verifying your installation? Here are the common mistakes users encounter when installing Superflow:
 
@@ -82,14 +92,14 @@ Having trouble getting your verifying your installation? Here are the common mis
  - Did you accidentally install multiple Superflow scripts in the Custom Code?
 
 
-## 8) Navigate to your Angular site 
+## 9) Navigate to your Angular site 
 
 Open you have verified that Superflow has been installed on your Angular site, navigate to your published site and add `?review=true` at the end of the URL to enable Superflow. 
 
 `Example: mywebsite.com/?review=true`
 
 
-## 9) Test out Superflow
+## 10) Test out Superflow
 
 You should now see a Superflow toolbar on the bottom right of you screen.
 
@@ -99,8 +109,7 @@ You should now see a Superflow toolbar on the bottom right of you screen.
 
 
 
-
-## 10) Dropping your first comment
+## 11) Dropping your first comment
 Try leaving a comment by highlighting some text on the page.
 
 <Frame>

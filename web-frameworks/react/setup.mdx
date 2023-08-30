@@ -12,7 +12,15 @@ Choose NPM from the list of options to install Superflow with React.js.
 </Frame>
 
 
-## 2) Install the Superflow NPM package
+## 2) Copy your unique Superflow Code
+
+Copy the code from the section "Initialize Superflow"
+
+<Frame>
+![](/images/copy-npm-final.png)
+</Frame>
+
+## 3) Install the Superflow NPM package
 
 Install the Superflow NPM package with:
 
@@ -20,7 +28,7 @@ Install the Superflow NPM package with:
 npm i @usesuperflow/client
 ```
 
-## 3) Import Superflow to the root level of your app
+## 4) Import Superflow to the root level of your app
 
 Import the Superflow NPM package with:
 
@@ -28,11 +36,12 @@ Import the Superflow NPM package with:
 import { initSuperflow } from '@usesuperflow/client'
 ```
 
-## 4) Initialize Superflow within your React.js app
+## 5) Initialize Superflow within your React.js app
 
 Import `initSuperflow` from the NPM package and use it to initialize Superflow.
 
-Be sure to execute the function within a `useEffect` hook.
+Create a `useEffect` hook and paste in the unique Superflow code you copied earlier.
+
 
 ```js
 import './App.css';

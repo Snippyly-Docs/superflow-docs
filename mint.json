@@ -103,7 +103,7 @@
           ]
         },
         {
-          "group": "Svelt.js",
+          "group": "Svelte.js",
           "pages": [
             "getting-started/webflow/setup",
             "getting-started/webflow/video"

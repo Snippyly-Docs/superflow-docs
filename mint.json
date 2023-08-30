@@ -24,7 +24,7 @@
   },
   "navigation": [
     {
-      "group": "Getting Started",
+      "group": "No Code Platforms",
       "pages": [
         {
           "group": "Webflow",
@@ -69,6 +69,46 @@
           ]
         }
 
+      ]
+    },
+    {
+      "group": "Web Frameworks",
+      "pages":[
+        {
+          "group": "React.js",
+          "pages": [
+            "getting-started/webflow/setup",
+            "getting-started/webflow/video"
+          ]
+        },
+        {
+          "group": "Next.js",
+          "pages": [
+            "getting-started/webflow/setup",
+            "getting-started/webflow/video"
+          ]
+        },
+        {
+          "group": "Vue.js",
+          "pages": [
+            "getting-started/webflow/setup",
+            "getting-started/webflow/video"
+          ]
+        },
+        {
+          "group": "Angular.js",
+          "pages": [
+            "getting-started/webflow/setup",
+            "getting-started/webflow/video"
+          ]
+        },
+        {
+          "group": "Svelt.js",
+          "pages": [
+            "getting-started/webflow/setup",
+            "getting-started/webflow/video"
+          ]
+        },
       ]
     }
     

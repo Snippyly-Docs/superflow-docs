@@ -30,7 +30,7 @@ Install the Superflow NPM package with:
 npm i @usesuperflow/client
 ```
 
-## 4) Import Superflow to into your App.js file
+## 4) Import Superflow into your `page.tsx` file
 
 Import the Superflow NPM package with:
 
@@ -38,43 +38,44 @@ Import the Superflow NPM package with:
 import { initSuperflow } from '@usesuperflow/client'
 ```
 
-## 5) Initialize Superflow within App.js
+
+## 5) Initialize Superflow within `page.tsx`
 
 Import `initSuperflow` from the NPM package and use it to initialize Superflow.
 
 Create a `useEffect` hook and paste in the unique Superflow code you copied earlier.
 
+Be sure to add `"use client"` at the top of your `page.tsx` file to enable client side data-fetching.
 
 ```js
-import './App.css';
-import { initSuperflow } from '@usesuperflow/client';
-import { useEffect } from 'react';
+"use client";
 
+import Image from 'next/image'
+import { useEffect } from 'react'
+import { initSuperflow } from '@usesuperflow/client'
 
-function App() {
+export default function Home() {
 
-  useEffect( () => {
-    //initialize Superflow
-    initSuperflow('XyP7u3xQtt0pSEwv6T0f', {
-      projectId: '5198289154173068'
-    });
-  })
+useEffect(()=>{
+  initSuperflow('jweIj5yb3k6WElsyHyp3', {
+    projectId: '7562859393923502'
+  });
+
+})
   return (
-    <div className="App">
-      <header className="App-header">
-          Test out Superflow by highlighting this text.
-      </header>
-    </div>
-  );
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      Test out Superflow by hightlighting this text.
+    </main>
+  )
 }
 
-export default App;
 ```
-## 5) Deploy your Next app with your changes.
+
+## 6) Deploy your Next app with your changes.
 
 Deploy your Next app with your new changes.
 
-## 6) Verify your Installation
+## 7) Verify your Installation
 
 Verify your Superflow installation by clicking the Verify button on the onboarding flow.
 
@@ -88,7 +89,7 @@ If successful, you should be redirected to your published Next site and see the 
 ![](/images/verified-final.png)
 </Frame>
 
-## 7) Troubleshooting
+## 8) Troubleshooting
 
 Having trouble getting your verifying your installation? Here are the common mistakes users encounter when installing Superflow:
 
@@ -100,14 +101,14 @@ Having trouble getting your verifying your installation? Here are the common mis
  - Did you accidentally install multiple Superflow scripts in the Custom Code?
 
 
-## 8) Navigate to your Next site 
+## 9) Navigate to your Next site 
 
 Open you have verified that Superflow has been installed on your Next site, navigate to your published site and add `?review=true` at the end of the URL to enable Superflow. 
 
 `Example: mywebsite.com/?review=true`
 
 
-## 9) Test out Superflow
+## 10) Test out Superflow
 
 You should now see a Superflow toolbar on the bottom right of your screen.
 
@@ -118,7 +119,7 @@ You should now see a Superflow toolbar on the bottom right of your screen.
 
 
 
-## 10) Dropping your first comment
+## 11) Dropping your first comment
 Try leaving a comment by highlighting some text on the page.
 
 <Frame>

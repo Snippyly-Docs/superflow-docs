@@ -1,11 +1,13 @@
 ---
 title: "Setup"
-description: "How to setup Superflow with React.js"
+description: "How to setup Superflow with Svelte.js"
 ---
+
+[Github Repo](https://github.com/benjvelt/superflow-react)
 
 ## 1) Select NPM from the list of Platforms
 
-Choose NPM from the list of options to install Superflow with React.js.
+Choose NPM from the list of options to install Superflow with Svelte.js.
 
 <Frame>
 ![](/images/select-npm-final.png)
@@ -20,7 +22,7 @@ Install the Superflow NPM package with:
 npm i @usesuperflow/client
 ```
 
-## 3) Import Superflow to the root level of your app
+## 3) Import Superflow in `+page.ts`
 
 Import the Superflow NPM package with:
 
@@ -28,39 +30,26 @@ Import the Superflow NPM package with:
 import { initSuperflow } from '@usesuperflow/client'
 ```
 
-## 4) Initialize Superflow within your React.js app
+## 4) Initialize Superflow in `+page.ts`
 
 Import `initSuperflow` from the NPM package and use it to initialize Superflow.
 
-Be sure to execute the function within a `useEffect` hook.
+Next, paste in the unique Superflow code you copied earlier before `export const prerender = true`.
+
 
 ```js
-import './App.css';
-import { initSuperflow } from '@usesuperflow/client';
-import { useEffect } from 'react';
+import { initSuperflow } from '@usesuperflow/client'
 
+initSuperflow('zwNLOmdJnjXJt6eLlbaj', {
+    projectId: '8948734731476897'
+});
 
-function App() {
+export const prerender = true;
 
-  useEffect( () => {
-    initSuperflow('XyP7u3xQtt0pSEwv6T0f', {
-      projectId: '5198289154173068'
-    });
-  })
-  return (
-    <div className="App">
-      <header className="App-header">
-          Test out Superflow by highlighting this text.
-      </header>
-    </div>
-  );
-}
-
-export default App;
 ```
 ## 5) 
 
-Deploy your React app with your changes.
+Deploy your Svelte app with your changes.
 
 
 ## 6) Verify your Installation
@@ -71,7 +60,7 @@ Verify your Superflow installation by clicking the Verify button on the onboardi
 ![](/images/verify-final.png)
 </Frame>
 
-If successful, you should be redirected to your published React site and see the following success message:
+If successful, you should be redirected to your published Svelte site and see the following success message:
 
 <Frame>
 ![](/images/verified-final.png)
@@ -89,9 +78,9 @@ Having trouble getting your verifying your installation? Here are the common mis
  - Did you accidentally install multiple Superflow scripts in the Custom Code?
 
 
-## 8) Navigate to your React site 
+## 8) Navigate to your Svelte site 
 
-Open you have verified that Superflow has been installed on your React site, navigate to your published site and add `?review=true` at the end of the URL to enable Superflow. 
+Open you have verified that Superflow has been installed on your Svelte site, navigate to your published site and add `?review=true` at the end of the URL to enable Superflow. 
 
 `Example: mywebsite.com/?review=true`
 

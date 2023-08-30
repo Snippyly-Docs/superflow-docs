@@ -77,36 +77,36 @@
         {
           "group": "React.js",
           "pages": [
-            "no-code-platforms/webflow/setup",
-            "no-code-platforms/webflow/video"
+            "web-frameworks/react/setup",
+            "web-frameworks/react/video"
           ]
         },
         {
           "group": "Next.js",
           "pages": [
-            "no-code-platforms/webflow/setup",
-            "no-code-platforms/webflow/video"
+            "web-frameworks/next/setup",
+            "web-frameworks/next/video"
           ]
         },
         {
           "group": "Vue.js",
           "pages": [
-            "no-code-platforms/webflow/setup",
-            "no-code-platforms/webflow/video"
+            "web-frameworks/vue/setup",
+            "web-frameworks/vue/video"
           ]
         },
         {
           "group": "Angular.js",
           "pages": [
-            "no-code-platforms/webflow/setup",
-            "no-code-platforms/webflow/video"
+            "web-frameworks/angular/setup",
+            "web-frameworks/angular/video"
           ]
         },
         {
           "group": "Svelte.js",
           "pages": [
-            "no-code-platforms/webflow/setup",
-            "no-code-platforms/webflow/video"
+            "web-frameworks/svelte/setup",
+            "web-frameworks/svelte/video"
           ]
         }
       ]

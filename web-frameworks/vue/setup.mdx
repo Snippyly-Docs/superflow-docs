@@ -1,0 +1,115 @@
+---
+title: "Setup"
+description: "How to setup Superflow with React.js"
+---
+
+## 1) Select NPM from the list of Platforms
+
+Choose NPM from the list of options to install Superflow with React.js.
+
+<Frame>
+![](/images/select-npm-final.png)
+</Frame>
+
+
+## 2) Install the Superflow NPM package
+
+Install the Superflow NPM package with:
+
+```
+npm i @usesuperflow/client
+```
+
+## 3) Import Superflow to the root level of your app
+
+Import the Superflow NPM package with:
+
+```
+import { initSuperflow } from '@usesuperflow/client'
+```
+
+## 4) Initialize Superflow within your React.js app
+
+Import `initSuperflow` from the NPM package and use it to initialize Superflow.
+
+Be sure to execute the function within a `useEffect` hook.
+
+```js
+import './App.css';
+import { initSuperflow } from '@usesuperflow/client';
+import { useEffect } from 'react';
+
+
+function App() {
+
+  useEffect( () => {
+    initSuperflow('XyP7u3xQtt0pSEwv6T0f', {
+      projectId: '5198289154173068'
+    });
+  })
+  return (
+    <div className="App">
+      <header className="App-header">
+          Test out Superflow by highlighting this text.
+      </header>
+    </div>
+  );
+}
+
+export default App;
+```
+## 5) 
+
+Deploy your React app with your changes.
+
+
+## 6) Verify your Installation
+
+Verify your Superflow installation by clicking the Verify button on the onboarding flow.
+
+<Frame>
+![](/images/verify-final.png)
+</Frame>
+
+If successful, you should be redirected to your published React site and see the following success message:
+
+<Frame>
+![](/images/verified-final.png)
+</Frame>
+
+## 7) Troubleshooting
+
+Having trouble getting your verifying your installation? Here are the common mistakes users encounter when installing Superflow:
+
+ - Did you forget to save the Custom Code?
+ - Did you forget to publish your site?
+ - Is the browser still loading a cached version?
+ - Did you add `?review=true` at the end of your url?
+ - Did you publish your changes on a staging URL while you are trying to access a Prod URL?
+ - Did you accidentally install multiple Superflow scripts in the Custom Code?
+
+
+## 8) Navigate to your React site 
+
+Open you have verified that Superflow has been installed on your React site, navigate to your published site and add `?review=true` at the end of the URL to enable Superflow. 
+
+`Example: mywebsite.com/?review=true`
+
+
+## 9) Test out Superflow
+
+You should now see a Superflow toolbar on the bottom right of you screen.
+
+<Frame>
+![](/images/toolbar-final.png)
+</Frame>
+
+
+
+
+## 10) Dropping your first comment
+Try leaving a comment by highlighting some text on the page.
+
+<Frame>
+![](/images/comments-final.png)
+</Frame>

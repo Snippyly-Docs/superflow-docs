@@ -1,11 +1,11 @@
 ---
 title: "Setup"
-description: "How to setup Superflow with React.js"
+description: "How to setup Superflow with Vue"
 ---
 
 ## 1) Select NPM from the list of Platforms
 
-Choose NPM from the list of options to install Superflow with React.js.
+Choose NPM from the list of options to install Superflow with Vue.
 
 <Frame>
 ![](/images/select-npm-final.png)
@@ -20,7 +20,7 @@ Install the Superflow NPM package with:
 npm i @usesuperflow/client
 ```
 
-## 3) Import Superflow to the root level of your app
+## 3) Import Superflow in `main.js`
 
 Import the Superflow NPM package with:
 
@@ -28,39 +28,36 @@ Import the Superflow NPM package with:
 import { initSuperflow } from '@usesuperflow/client'
 ```
 
-## 4) Initialize Superflow within your React.js app
+## 4) Initialize Superflow within `main.js`
 
 Import `initSuperflow` from the NPM package and use it to initialize Superflow.
 
-Be sure to execute the function within a `useEffect` hook.
+Next, paste in the unique Superflow code you copied earlier before `app.use(router)`.
+
 
 ```js
-import './App.css';
-import { initSuperflow } from '@usesuperflow/client';
-import { useEffect } from 'react';
+import './assets/main.css'
 
+import { createApp } from 'vue'
+import App from './App.vue'
+import router from './router'
+import { initSuperflow } from '@usesuperflow/client'
 
-function App() {
+const app = createApp(App)
 
-  useEffect( () => {
-    initSuperflow('XyP7u3xQtt0pSEwv6T0f', {
-      projectId: '5198289154173068'
-    });
-  })
-  return (
-    <div className="App">
-      <header className="App-header">
-          Test out Superflow by highlighting this text.
-      </header>
-    </div>
-  );
-}
+//initialize Superflow
+initSuperflow('jweIj5yb3k6WElsyHyp3', {
+    projectId: '7562859393923502'
+});
 
-export default App;
+app.use(router)
+
+app.mount('#app')
+
 ```
 ## 5) 
 
-Deploy your React app with your changes.
+Deploy your Vue app with your changes.
 
 
 ## 6) Verify your Installation
@@ -71,7 +68,7 @@ Verify your Superflow installation by clicking the Verify button on the onboardi
 ![](/images/verify-final.png)
 </Frame>
 
-If successful, you should be redirected to your published React site and see the following success message:
+If successful, you should be redirected to your published Vue site and see the following success message:
 
 <Frame>
 ![](/images/verified-final.png)
@@ -89,9 +86,9 @@ Having trouble getting your verifying your installation? Here are the common mis
  - Did you accidentally install multiple Superflow scripts in the Custom Code?
 
 
-## 8) Navigate to your React site 
+## 8) Navigate to your Vue site 
 
-Open you have verified that Superflow has been installed on your React site, navigate to your published site and add `?review=true` at the end of the URL to enable Superflow. 
+Open you have verified that Superflow has been installed on your Vue site, navigate to your published site and add `?review=true` at the end of the URL to enable Superflow. 
 
 `Example: mywebsite.com/?review=true`
 

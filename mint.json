@@ -34,6 +34,13 @@
           ]
         },
         {
+          "group": "Bubble",
+          "pages": [
+            "no-code-platforms/bubble/setup",
+            "no-code-platforms/bubble/video"
+          ]
+        },
+        {
           "group": "Wordpress",
           "pages": [
             "no-code-platforms/wordpress/setup",

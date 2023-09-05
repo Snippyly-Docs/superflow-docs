@@ -43,8 +43,20 @@
         {
           "group": "Wordpress",
           "pages": [
-            "no-code-platforms/wordpress/setup",
-            "no-code-platforms/wordpress/video"
+            {
+              "group": "Wordpress",
+              "pages": [
+                "no-code-platforms/wordpress/setup",
+                "no-code-platforms/wordpress/video"
+              ]
+            },
+            {
+              "group": "Elementor",
+              "pages": [
+                "no-code-platforms/elementor/setup",
+                "no-code-platforms/elementor/video"
+              ]
+            }
           ]
         },
         {

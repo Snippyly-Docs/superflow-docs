@@ -44,7 +44,7 @@
           "group": "Wordpress",
           "pages": [
             {
-              "group": "Wordpress",
+              "group": "Self Hosted Wordpress",
               "pages": [
                 "no-code-platforms/wordpress/setup",
                 "no-code-platforms/wordpress/video"

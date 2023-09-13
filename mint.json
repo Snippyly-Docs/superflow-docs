@@ -29,8 +29,20 @@
         {
           "group": "Webflow",
           "pages": [
-            "no-code-platforms/webflow/setup",
-            "no-code-platforms/webflow/video"
+            {
+              "group": "Webflow using Custom Code Snippet",
+              "pages": [
+                "no-code-platforms/webflow/setup",
+                "no-code-platforms/webflow/video"
+              ]
+            },
+            {
+              "group": "Webflow with Superflow Marketplace Integration",
+              "pages": [
+                "no-code-platforms/webflow-integration/setup",
+                "no-code-platforms/webflow-integration/video"
+              ]
+            }
           ]
         },
         {

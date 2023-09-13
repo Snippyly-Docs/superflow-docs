@@ -39,8 +39,8 @@
             {
               "group": "Webflow with Superflow Marketplace Integration",
               "pages": [
-                "no-code-platforms/integration/setup",
-                "no-code-platforms/integration/video"
+                "no-code-platforms/webflow-integration/setup",
+                "no-code-platforms/webflow-integration/video"
               ]
             }
           ]

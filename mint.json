@@ -53,6 +53,13 @@
           ]
         },
         {
+          "group": "Hubspot",
+          "pages": [
+            "no-code-platforms/hubspot/setup",
+            "no-code-platforms/hubspot/video"
+          ]
+        },
+        {
           "group": "Wordpress",
           "pages": [
             {

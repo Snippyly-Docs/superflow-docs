@@ -60,6 +60,13 @@
           ]
         },
         {
+          "group": "Drupal",
+          "pages": [
+            "no-code-platforms/drupal/setup",
+            "no-code-platforms/drupal/video"
+          ]
+        },
+        {
           "group": "Wordpress",
           "pages": [
             {

@@ -1,0 +1,77 @@
+# Superflow Drupal Integration
+
+Follow these steps to get Superflow toolbar code and inject it into your drupal website:
+
+## Step 1: Get Superflow Code from Superflow Admin Panel
+
+1. Go to https://app.usesuperflow.com/ and login with your work email.
+2. You will be redirected to installation process:
+    1. Under “**Choose an installation method”:**
+        
+        Select “**Install code snippet yourself**” and click Next.
+        
+    2. Under “**Choose a platform to install Superflow”**:
+        
+        Select “Other” in platform options and click Next.
+        
+    3. Enter your staging site URL and click Next:
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cd7ef83b-905f-41af-b185-a81642b88595/Untitled.png)
+        
+    4. It will generate a unique code snippet, copy it.
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0443847c-a42f-4551-a2fa-2b6450e90055/Untitled.png)
+        
+    
+## Step 2: Install Superflow code snippet on your Drupal Website:
+    
+    1. In the Drupal website admin panel, goto Structure > Block Layout
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8964e57-f676-4509-9be6-9ec1d86441ad/Untitled.png)
+        
+        1. In Block Layout Page, scroll to bottom of the page and you would get “Footer Bottom” section. Click on “Place block” button.
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/080949e5-e54d-4100-9283-5307e8480e49/Untitled.png)
+        
+        1. It would open Blocks popup, click on “Add content block” button.
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f385bf74-f1ee-421d-b547-5000f3c1b971/Untitled.png)
+        
+        1. Under “Block description” add “Superflow Toolbar Block” or any name as block description.
+            1. In “Text format” dropdown below Body text editor, select “Full HTML” .
+            2. In Body text editor, Click “Source” option  and paste your code there.
+            3. Click “Save” button.
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/867b09ae-2d3b-4702-a127-af65193d5d6b/Untitled.png)
+        
+        1. You will be redirected to the page attached below:
+            1. Uncheck “Display Title” checkbox.
+            2. Select “Footer Bottom” in Region dropdown.
+            3. Click “Save Block” button.
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7c5eeb56-2c3b-474f-bf0e-56fd54c273d0/Untitled.png)
+        
+        After completing above steps successfully, you would see “Superflow Toolbar Block” added in “Footer Bottom” section as shown in below screenshot.
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5061c7f1-bad2-46b9-a0e2-901a2e01eb73/Untitled.png)
+        
+        ## Step 3: Deploy your Drupal website:
+        
+        Now deploy your website. Wait for the deployment to finish. Once done, goto the next step.
+        
+        ## Step 4: Verify Installation:
+        
+        1. Go back to the Superflow Admin panel, click “Yes, I’ve published”.
+        2. Click on the “Verify Install” button.
+        3. It will automatically open your drupal website with **?review=true** url parameter. This will load the Superflow toolbar on the bottom right of your website.
+        4. You can now log in and start commenting.
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/63d26f20-a6eb-4a8d-a846-13df62ed4c28/Untitled.png)
+        
+
+## Troubleshooting:
+
+1. Ensure that your website changes have actually been published. You should see be able to see Superflow JS tag in your dev console DOM tree.
+    1. Sometimes the browser is loading the older cached version of your website, so check if you are able to see the Superflow script tag.
+2. If you still don’t see the toolbar at the bottom right of your website, open dev console to see if there are any errors from Superflow?
+3. Reach out to us.

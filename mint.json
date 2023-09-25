@@ -166,5 +166,8 @@
   },
   "integrations": {
     "intercom": "gkjq60px"
+  },
+  "metadata": {
+    "og:image": "/images/checks-passed.png"
   }
 }

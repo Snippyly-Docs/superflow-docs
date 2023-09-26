@@ -177,5 +177,10 @@
   "metadata": {
     "og:image": "https://firebasestorage.googleapis.com/v0/b/snippyly.appspot.com/o/external%2FSuperflow%20Docs.png?alt=media&token=0126d596-0570-4723-8194-4799f44e5291",
     "twitter:image": "https://firebasestorage.googleapis.com/v0/b/snippyly.appspot.com/o/external%2FSuperflow%20Docs.png?alt=media&token=0126d596-0570-4723-8194-4799f44e5291"
+  },
+  "feedback": {
+    "suggestEdit": true,
+    "raiseIssue": true,
+    "thumbsRating": true
   }
 }

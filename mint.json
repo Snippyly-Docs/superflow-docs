@@ -166,7 +166,8 @@
     {
       "group": "How To Guides",
       "pages": [
-        "how-to-guides/how-to-sign-in-to-the-superflow-toolbar"
+        "how-to-guides/how-to-sign-in-to-the-superflow-toolbar",
+        "superflow-docs/how-to-guides/how-to-add-a-comment-on-an-element"
       ]
     }
   ],

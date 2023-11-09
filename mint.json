@@ -167,7 +167,11 @@
       "group": "How To Guides",
       "pages": [
         "how-to-guides/how-to-sign-in-to-the-superflow-toolbar",
-        "how-to-guides/how-to-add-a-comment-on-an-element"
+        "how-to-guides/how-to-add-a-comment-on-an-element",
+        "how-to-guides/how-to-add-a-comment-to-a-text",
+        "how-to-guides/how-to-add-an-arrow-comment",
+        "how-to-guides/how-to-draw-a-box-comment-on-the-page",
+        "how-to-guides/how-to-enter-exit-comment-mode"
       ]
     }
   ],

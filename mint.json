@@ -119,6 +119,12 @@
             "no-code-platforms/google-tag-manager/setup",
             "no-code-platforms/google-tag-manager/video"
           ]
+        },
+        {
+          "group": "Typedream",
+          "pages": [
+            "no-code-platforms/typedream/setup"
+          ]
         }
 
       ]

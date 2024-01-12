@@ -82,6 +82,13 @@
                 "no-code-platforms/elementor/setup",
                 "no-code-platforms/elementor/video"
               ]
+            },
+            {
+              "group": "Wordpress Plugin",
+              "pages": [
+                "no-code-platforms/wordpress-plugin/setup",
+                "no-code-platforms/wordpress-plugin/video"
+              ]
             }
           ]
         },
@@ -123,7 +130,8 @@
         {
           "group": "Typedream",
           "pages": [
-            "no-code-platforms/typedream/setup"
+            "no-code-platforms/typedream/setup",
+            "no-code-platforms/typedream/video"
           ]
         }
 

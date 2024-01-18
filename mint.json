@@ -178,6 +178,12 @@
       ]
     },
     {
+      "group": "Dashboard Guides",
+      "pages": [
+        "dashboard/how-to-access-project-settings"
+      ]
+    }
+    {
       "group": "How To Guides",
       "pages": [
         "how-to-guides/how-to-sign-in-to-the-superflow-toolbar",

@@ -180,7 +180,8 @@
     {
       "group": "Dashboard Guides",
       "pages": [
-        "dashboard/how-to-access-project-settings"
+        "dashboard/how-to-access-project-settings",
+        "dashboard/how-to-invite-users-to-your-project"
       ]
     },
     {

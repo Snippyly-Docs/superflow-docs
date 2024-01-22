@@ -181,7 +181,8 @@
       "group": "Integration Guides",
       "pages": [
         "Integrations/how-to-integrate-with-monday",
-        "Integrations/how-to-integrate-with-slack"
+        "Integrations/how-to-integrate-with-slack",
+        "Integrations/how-to-integrate-with-asana"
     ]
     },
     {

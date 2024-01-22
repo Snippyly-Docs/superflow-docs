@@ -178,6 +178,12 @@
       ]
     },
     {
+      "group": "Integration Guides",
+      "pages": [
+        "Integrations/how-to-integrate-with-monday"  
+    ]
+    },
+    {
       "group": "Dashboard Guides",
       "pages": [
         "dashboard/how-to-access-project-settings",

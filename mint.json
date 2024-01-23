@@ -210,7 +210,8 @@
         "files/how-to-invite-commenters-to-a-file",
         "files/how-to-invite-admin-users-to-a-file"
       ]
-        {
+    },
+    {
       "group": "Product Features",
       "pages": [
         "product-features/what-is-guest-mode?"

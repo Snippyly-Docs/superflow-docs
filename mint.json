@@ -221,6 +221,15 @@
       ]
     },
     {
+      "group": "Billing",
+      "pages": [
+        "billing/what-is-an-active-project",
+        "billing/what-is-a-seat",
+        "billing/do-you-offer-a-free-plan",
+        "billing/do-you-offer-a-discount-to-education-institutes-or-non-profits"
+      ]
+    },
+    {
       "group": "How To Guides",
       "pages": [
         "how-to-guides/how-to-sign-in-to-the-superflow-toolbar",

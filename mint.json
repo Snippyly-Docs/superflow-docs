@@ -205,7 +205,8 @@
     {
       "group": "Managing Files",
       "pages": [
-        "files/how-to-upload-a-file"
+        "files/how-to-upload-a-file",
+        "files/how-to-comment-on-a-file"
       ]
     },
     {

@@ -214,7 +214,8 @@
     {
       "group": "Product Features",
       "pages": [
-        "product-features/what-is-guest-mode"
+        "product-features/what-is-guest-mode",
+        "product-features/what-are private-comments"
       ]
     },
     {

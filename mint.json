@@ -203,6 +203,13 @@
       ]
     },
     {
+      "group": "Managing Files",
+      "pages": [
+        "files/how-to-upload-a-file"
+      ]
+    },
+    {
+    {
       "group": "How To Guides",
       "pages": [
         "how-to-guides/how-to-sign-in-to-the-superflow-toolbar",

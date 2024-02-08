@@ -260,14 +260,15 @@
         "how-to-guides/how-to-record-screen-and-add-it-to-comments",
         "how-to-guides/how-to-leave-video-comments"
       ]
-    }
-  ],
-  {
+    },
+    {
       "group": "Release Notes",
       "pages": [
         "release-notes/feb-8-2024.mdx"
       ]
-    },
+    }
+  ],
+ 
   "footerSocials": {
     "twitter": "https://twitter.com/veltjs",
     "linkedin": "https://www.linkedin.com/company/veltjs",

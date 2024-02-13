@@ -284,5 +284,13 @@
   },
   "feedback": {
     "thumbsRating": true
+  },
+  "analytics": {
+    "koala": {
+        "publicApiKey": "pk_bf3d19349ec6c6be52bff35a1de7a6328e15"
+    },
+    "mixpanel": {
+      "projectToken": "15f22bfd89315cb10f7cd65937b149cb"
+    }
   }
 }

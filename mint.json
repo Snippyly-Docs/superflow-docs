@@ -22,6 +22,20 @@
     "name": "Use Superflow",
     "url": "https://usesuperflow.com/"
   },
+  "tabs": [
+    {
+      "name": "Installation Guides",
+      "url": "no-code-platforms"
+    },
+    {
+      "name": "Product Updates",
+      "url": "product-updates"
+    },
+    {
+      "name": "How To Guides",
+      "url": "how-to-guides"
+    }
+  ],
   "navigation": [
     {
       "group": "No Code Platforms",

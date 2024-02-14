@@ -276,10 +276,10 @@
       ]
     },
     {
-      "group": "Release Notes",
+      "group": "Product Updates",
       "pages": [
-        "release-notes/feb-8-2024",
-        "release-notes/feb-15-2024"
+        "product-updates/feb-8-2024",
+        "product-updates/feb-15-2024"
       ]
     }
   ],

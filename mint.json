@@ -302,6 +302,9 @@
     },
     "mixpanel": {
       "projectToken": "15f22bfd89315cb10f7cd65937b149cb"
+    },
+    "posthog": {
+      "apiKey": "phc_tUzo0EsvCQNDguE1dtj6gypt2vRnFuMaJBMJXsyG6hR"
     }
   }
 }

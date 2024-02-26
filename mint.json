@@ -80,6 +80,13 @@
           "group": "Wordpress",
           "pages": [
             {
+              "group": "Wordpress Plugin",
+              "pages": [
+                "no-code-platforms/wordpress-plugin/setup",
+                "no-code-platforms/wordpress-plugin/video"
+              ]
+            },
+            {
               "group": "Self Hosted Wordpress",
               "pages": [
                 "no-code-platforms/wordpress/setup",
@@ -91,13 +98,6 @@
               "pages": [
                 "no-code-platforms/elementor/setup",
                 "no-code-platforms/elementor/video"
-              ]
-            },
-            {
-              "group": "Wordpress Plugin",
-              "pages": [
-                "no-code-platforms/wordpress-plugin/setup",
-                "no-code-platforms/wordpress-plugin/video"
               ]
             }
           ]

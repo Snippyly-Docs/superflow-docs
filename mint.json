@@ -24,10 +24,6 @@
   },
   "tabs": [
     {
-      "name": "Product Updates",
-      "url": "product-updates"
-    },
-    {
       "name": "How To Guides",
       "url": "how-to-guides"
     }

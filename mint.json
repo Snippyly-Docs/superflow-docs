@@ -273,7 +273,7 @@
         {
           "group": "Projects",
           "pages": [
-            "rest-apis/projects/add-projects"
+            "rest-apis/projects/create-project"
           ]
         }
       ]

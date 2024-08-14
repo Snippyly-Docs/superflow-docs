@@ -1,0 +1,89 @@
+---
+title: "Add Projects"
+# api: "POST https://api.velt.dev/adddocuments"
+api: "POST https://createproject.api.usesuperflow.com/"
+---
+
+Use this API to add projects with metadata.
+
+# Endpoint
+
+`POST https://createproject.api.velt.dev/`
+
+# Headers
+
+<ParamField header="x-superflow-api-key" type="string" required>
+  Your API key.
+</ParamField>
+
+<ParamField header="x-superflow-auth-token" type="string" required>
+  Your [Auth Token](/security/auth-tokens).
+</ParamField>
+
+# Body Example
+
+#### Params
+
+<ParamField body="data" type="object" required>
+  <Expandable title="properties">
+    <ParamField body="projectUrl" type="string" required>
+      Project URL
+    </ParamField>
+
+    <ParamField body="projectName" type="string" required>
+      Project Name
+    </ParamField>
+  </Expandable>
+</ParamField>
+
+## **Example Requests**
+
+```JSON
+{
+  "data":{
+      "projectUrl": "https://yourprojecturl.com",
+      "projectName": "Your Project Name"
+  }
+}
+```
+
+# Response
+
+#### Success Response
+
+```JSON
+{
+  "result": {
+    "status": "success",
+    "message": "Created new project successfully.",
+    "data": {
+      "projectId": "7649736893876327"
+    }
+  }
+}
+```
+
+#### Failure Response
+
+```JSON
+{
+  "error": {
+    "message": "ERROR_MESSAGE",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+```
+
+<ResponseExample>
+```js
+{
+  "result": {
+    "status": "success",
+    "message": "Created new project successfully.",
+    "data": {
+      "projectId": "7649736893876327"
+    }
+  }
+}
+```
+</ResponseExample>

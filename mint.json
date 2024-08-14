@@ -268,9 +268,21 @@
       ]
     },
     {
+      "group": "REST APIs",
+      "pages": [
+        {
+          "group": "Projects",
+          "pages": [
+            "rest-apis/projects/add-projects"
+          ]
+        }
+      ]
+    },
+    {
       "group": "Security",
       "pages": [
-        "security/content-security-policy"
+        "security/content-security-policy",
+        "security/auth-tokens"
       ]
     }
   ],
